@@ -1,0 +1,84 @@
+{% extends "index.twig" %}
+
+{% block content %}
+
+{% set herobg = entry.herobackground.one() %}
+
+   <section class="hero" style="background-image: url('{{ herobg.url }}');">
+        <div class="hero-text">
+            <h2>{{ entry.herotitle}}</h2>
+            <p>{{ entry.herodesc }}</p>
+            <div class="hero-button">
+                <a href="#">Check Discounts</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <div class="container">
+        <div class="new-in-grid">
+        <h2>New In</h2>
+        <div class="sortBtns"><button onclick="sortProductsByName()">Sort by Name</button>
+        <button onclick="sortProductsByPrice()">Sort by Price</button></div>
+        
+        
+        <div class="product-list">
+            {% for newproduct in entry.newproducts.all() %}
+            {% set newphoto = newproduct.productimage.one() %}
+            <div class="product-card" data-title="{{ newproduct.title }}" data-price="{{ newproduct.productprice|number_format(2, '.', '') }}">
+                <img src="{{ newphoto.url }}" alt="{{ newproduct.title }}">
+                <div class="product-info">
+                    <h2><a href="#">{{ newproduct.title }}</a></h2>
+                    <p>{{ newproduct.productdesc }}</p>
+                    <div class="price">{{ newproduct.productprice }}</div>
+                    <a href="#" class="button">Add To Cart</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+        <div class="trending-grid">
+            <h2>Trending</h2>
+
+            <div class="product-list">
+
+            {% for trendingproduct in entry.trendingproducts.all() %}
+
+            {% set trendingphoto = trendingproduct.productimage.one() %}
+                <div class="product-card">
+                    <img src="{{ trendingphoto.url }}" alt="Product 1">
+                    <div class="product-info">
+                    <h2><a href="#">{{ trendingproduct.title }}</a></h2>
+                        <p>{{ trendingproduct.productdesc }}</p>
+                        <div class="price">{{ trendingproduct.productprice }}</div>
+                        <a href="#" class="button">Add To Cart</a>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+        <div class="trending-grid">
+            <h2>Accessories</h2>
+            <div class="product-list">
+
+                <div class="product-card">
+                    <img src="#" alt="Product 1">
+                    <div class="product-info">
+                        <h2><a href="#">product1</a></h2>
+                        <p>test test test</p>
+                        <div class="price">lalala</div>
+                        <a href="#" class="button">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="sort.js"></script>
+
+{% endblock %}

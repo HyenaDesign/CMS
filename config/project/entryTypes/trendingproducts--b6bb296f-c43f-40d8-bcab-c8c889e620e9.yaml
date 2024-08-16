@@ -1,0 +1,99 @@
+color: null
+fieldLayouts:
+  e73b1ce3-7105-4668-80a0-30e595fe1ed4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-13T17:15:02+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 5edeb81a-92f3-4bae-9ea8-c770fe5e791e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T17:16:46+00:00'
+            elementCondition: null
+            fieldUid: 2888024b-a77a-4d24-8fca-c17b984f271b # productImage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca187ce9-885b-4092-8504-9ff79afcde6e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T17:16:46+00:00'
+            elementCondition: null
+            fieldUid: 0d5ef9bd-fdf5-4438-927e-aa99b0247080 # productDesc
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 165fe628-4faf-4894-9c39-1c44f748b479
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T17:16:46+00:00'
+            elementCondition: null
+            fieldUid: 116c15ac-37c6-4153-bcc9-70b45add3bd1 # productPrice
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c562d51-56d8-4429-bd1a-71988ec28e70
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f6c6fd7a-78d7-45e8-832f-36c1bc0b5de7
+        userCondition: null
+handle: trendingproducts
+hasTitleField: true
+icon: ''
+name: trendingProducts
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

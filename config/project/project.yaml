@@ -1,0 +1,59 @@
+dateModified: 1723638056
+email:
+  fromEmail: sam.hyenadesign@gmail.com
+  fromName: Chlorofyl
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: images
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0a72d318-cab7-4ee5-9952-4e538383e417: icon # icon
+    0d5ef9bd-fdf5-4438-927e-aa99b0247080: productDesc # productDesc
+    1fd07c44-d850-46d1-80bc-034b8390ac10: newProducts # newProducts
+    08a8fad6-6066-4151-b796-69def6b1cd7f: index # index
+    8d5ba7c4-2e10-44b4-95ec-aa8dee118c9e: Home # Home
+    9b636600-53b6-44dc-9f6f-d026093511ba: Chlorofyl # Chlorofyl
+    9e1e5065-e21b-4103-9402-1eacabcad103: navLinks # navLinks
+    38d6eb67-73dc-4f9d-bd14-a2332c2902eb: trendingProducts # trendingProducts
+    59c1144a-4e74-48a4-a2aa-84cc4ccd9683: newproducts # newproducts
+    98cae94b-0d12-4f28-96f1-6b486d1a92cb: Navigation # Navigation
+    116c15ac-37c6-4153-bcc9-70b45add3bd1: productPrice # productPrice
+    679c4824-7587-44cb-bca4-e605df6968fb: heroTitle # heroTitle
+    968a6f96-371e-493d-96a7-716d6a98476f: navName # navName
+    2888024b-a77a-4d24-8fca-c17b984f271b: productImage # productImage
+    94713289-d9da-4d63-8966-4f13591a0650: home # home
+    b6bb296f-c43f-40d8-bcab-c8c889e620e9: trendingProducts # trendingProducts
+    c02da18e-9111-4c55-9893-dd37b3c5829e: heroBackground # heroBackground
+    cd56c806-76e8-4d5d-b0dd-16ae8e2eb464: heroDesc # heroDesc
+    ce510c87-ff65-4413-9b59-3b42f5c8a5be: navUrl # navUrl
+    e7aef16d-328b-4d89-9ed2-3d3800911c32: Uploads # Uploads
+    f05ffa38-5a40-4647-975c-cf130e0b236e: navLinks # navLinks
+    f607ea84-c260-42c9-9b65-60bfc57a294f: Chlorofyl # Chlorofyl
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-tweaks:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Chlorofyl
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

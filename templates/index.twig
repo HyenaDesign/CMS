@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Chlorofyl</title>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <div class="logo">
+                <a href="#"><h1>Chlorofyl</h1></a>
+            </div>
+
+            
+            <div class="links">
+                <ul>
+                    {% for navlink in index.navlinks.all() %}
+                        {% set icon = navlink.icon.one() %}
+                        <li>
+                            <a href="{{ navlink.navurl }}">
+                            {% if icon %}
+                            <img src="{{ icon.url }}" alt="{{ navlink.navname }} icon">
+                            {% endif %}
+                            {{ navlink.navname }}
+                            </a>
+                        </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}
+    {# templates insert here #}
+    {% endblock %}
+
+        <footer>&copy;Chlorofyl 2024</footer>
+    </div>
+</body>
+</html>

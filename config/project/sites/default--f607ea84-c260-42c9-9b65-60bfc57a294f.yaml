@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: Chlorofyl
+primary: true
+siteGroup: 9b636600-53b6-44dc-9f6f-d026093511ba # Chlorofyl
+sortOrder: 1

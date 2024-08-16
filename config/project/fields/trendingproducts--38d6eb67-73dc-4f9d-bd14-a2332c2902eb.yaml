@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: trendingproducts
+instructions: null
+name: trendingProducts
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - b6bb296f-c43f-40d8-bcab-c8c889e620e9 # trendingProducts
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

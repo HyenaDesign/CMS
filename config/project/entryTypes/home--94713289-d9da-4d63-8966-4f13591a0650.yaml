@@ -1,0 +1,137 @@
+color: null
+fieldLayouts:
+  f3d01b4e-c369-4639-b98a-36c38e96bc1d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-13T15:36:41+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1a93146f-5959-45d5-b06f-703a424217d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T15:40:08+00:00'
+            elementCondition: null
+            fieldUid: 679c4824-7587-44cb-bca4-e605df6968fb # heroTitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fe48485-dfbb-49a9-8c37-42e70efb85fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-14T12:20:22+00:00'
+            elementCondition: null
+            fieldUid: c02da18e-9111-4c55-9893-dd37b3c5829e # heroBackground
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3908fe55-ac7f-468a-82e8-c7ab217edc73
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-14T12:20:56+00:00'
+            elementCondition: null
+            fieldUid: cd56c806-76e8-4d5d-b0dd-16ae8e2eb464 # heroDesc
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6d51f7be-0a66-435a-af33-6a310d72e033
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9679155c-2841-4849-a667-1519a2d46ca1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-08-13T16:50:30+00:00'
+            elementCondition: null
+            fieldUid: 1fd07c44-d850-46d1-80bc-034b8390ac10 # newProducts
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2fc3ec1-2573-481c-975f-c7e7a41cfac4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T17:17:12+00:00'
+            elementCondition: null
+            fieldUid: 38d6eb67-73dc-4f9d-bd14-a2332c2902eb # trendingProducts
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 736534f0-8ee2-4403-9122-18132b1e0d62
+            userCondition: null
+            warning: null
+            width: 100
+        name: Products
+        uid: cacc09e8-f690-4f88-8d27-a9e24f96745f
+        userCondition: null
+handle: home
+hasTitleField: true
+icon: ''
+name: home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

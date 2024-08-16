@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: navlinks
+instructions: null
+name: navLinks
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - f05ffa38-5a40-4647-975c-cf130e0b236e # navLinks
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

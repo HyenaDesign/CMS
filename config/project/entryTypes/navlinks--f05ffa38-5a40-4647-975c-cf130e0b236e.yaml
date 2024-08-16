@@ -1,0 +1,99 @@
+color: null
+fieldLayouts:
+  e578adba-29ee-4ffe-b339-e9597357efbb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-13T18:21:26+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 92470bf8-7a2c-45a1-aa81-08929239e55d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T18:08:10+00:00'
+            elementCondition: null
+            fieldUid: 0a72d318-cab7-4ee5-9952-4e538383e417 # icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6971f489-98e9-4af5-a5ac-1c8e870420e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T18:20:27+00:00'
+            elementCondition: null
+            fieldUid: 968a6f96-371e-493d-96a7-716d6a98476f # navName
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 034d9db6-5c16-49ee-b8d0-e17a26811f4e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-13T18:22:35+00:00'
+            elementCondition: null
+            fieldUid: ce510c87-ff65-4413-9b59-3b42f5c8a5be # navUrl
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc84b0a0-fddb-45af-946a-0f4b55250c63
+            userCondition: null
+            warning: null
+            width: 100
+        name: navlink
+        uid: b36de880-0758-4878-9694-d8fcdeb785ff
+        userCondition: null
+handle: navlinks
+hasTitleField: true
+icon: link
+name: navLinks
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

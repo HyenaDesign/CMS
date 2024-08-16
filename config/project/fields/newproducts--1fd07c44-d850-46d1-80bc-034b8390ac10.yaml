@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: newproducts
+instructions: null
+name: newProducts
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 59c1144a-4e74-48a4-a2aa-84cc4ccd9683 # newproducts
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.9);
+    color: purple;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 40px;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: purple;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.links ul li {
+    margin-right: 20px;
+    align-content: center;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: purple;
+}
+
+.links ul li a img {
+    padding: 2px;
+    width: 24px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?q=80&w=2673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
+    background-size: cover;
+    background-position: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 120px;
+    padding: 60px;
+    padding-bottom: 90px;
+    color: white;
+}
+
+.hero-text h2 {
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Gloock", serif;
+}
+
+.hero-text p {
+    width: 800px;
+    font-size: 20px;
+}
+
+.hero-button {
+    margin-top: 20px;
+}
+
+.hero-button a {
+    padding: 12px;
+    background-color: purple;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-in-grid, .trending-grid {
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-in-grid h2, .trending-grid h2 {
+    font-family: "Gloock", serif;
+    margin-bottom: 20px;
+}
+
+.new-in-grid .product-list, .trending-grid .product-list {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.product-card {
+    display: inline-block;
+    vertical-align: top;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    width: 250px;
+    white-space: normal;
+}
+
+.product-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-info {
+    padding: 8px;
+    text-align: center;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-info h2 a {
+    text-decoration: none;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #777;
+}
+
+.price {
+    font-size: 20px;
+    color: purple;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: purple;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.content img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: #777;
+}
+
+.content-text {
+    padding: 20px;
+}
+
+.content-text h1,
+.content-text h2 {
+    font-size: 30px;
+    color: purple;
+}
+
+.content-text h1 {
+    text-transform: uppercase;
+}
+
+.content-text p {
+    font-size: 18px;
+    color: #777;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}

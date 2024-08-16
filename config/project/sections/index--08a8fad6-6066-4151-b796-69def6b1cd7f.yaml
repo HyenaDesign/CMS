@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 98cae94b-0d12-4f28-96f1-6b486d1a92cb # Navigation
+handle: index
+maxAuthors: 1
+name: index
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f607ea84-c260-42c9-9b65-60bfc57a294f: # Chlorofyl
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: index
+type: single
